@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+/* 공통 영역 */
+.inner{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: coral;
+}
+.wrap{
+    background-color: aquamarine;
+}
+header{
+    padding: 20px 0;
+    background-color: beige;
+}
+.visual{
+    padding: 50px 0;
+    background-color: cadetblue;
+}
+.product{
+    background-color: yellow;
+}
+footer{
+    background-color: rgb(195, 0, 255);
+}

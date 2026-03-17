@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul, li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #333;
+}
+/* 공통영역 */
+.inner{
+    width: 1200px;
+    margin: 0 auto;
+    /* background-color: aqua; */
+}
+/* 전체 영역 */
+/* 상단 */
+.header{
+    background-color: bisque;
+}
+.header .inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(224, 224, 182);
+}
+/* 로고 */
+.logo{
+/* background-color: rgb(218, 167, 0); */
+font-size: 30px;
+color: #1f1f1f;
+font-weight: bold;
+padding: 20px;
+}
+/* 메뉴 */
+.navi{
+/* background-color: violet; */
+}
+.navi ul{
+    display: flex;
+    /* width: 300px; */
+    gap: 25px;
+}
+
+/* 타이틀 영역 */
+.title-section{
+    background-color: #eee;
+    padding: 60px 0;
+}
+.title-section .inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.title-text h2{
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.title-text p{
+    font-size: 14px;
+    color: #333;
+}
+.filter-btn{
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+/* 클래스 영역 */
+.class-wrap .inner{
+    padding: 60px 50px;
+}
+.class-list{
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.card{
+    width: calc(100% /4);
+    border-radius: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+/* 카드 안에 이미지 */
+.card > img{
+    width: 100%;
+}
+/* 클래스 설명 영역 */
+.info{
+    padding: 15px;
+}
+.country{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 12px;
+    color: #888;
+}
+.country img{
+    width: 18px;
+}
+.info h3{
+    font-size: 16px;
+    margin: 8px 0;
+}
+.price{
+    font-size: 14px;
+    font-weight: bold;
+}
